@@ -1,0 +1,138 @@
+body { font-family: Arial, Helvetica, sans-serif; }
+
+/*div {border: 1px solid red;}*/
+.jumbotron
+{
+	background-color: #000000;
+	background: url("/joey/images/menupose.jpg") bottom left no-repeat #000000;
+	background-position: 0px 25px;
+	height: 230px;
+	margin-top: 20px;
+}
+
+
+.headerquote 
+{	color: #eeeeee;
+  clear: right;
+  margin-top: .7em;
+  padding-right: 0px;
+  text-align: right;
+  font-size: smaller;
+}
+
+.headerquote div.quote
+{
+	font-style: italic;
+}
+
+.navbar
+{
+	/*background-color: #000000;*/
+	background: rgba(0, 0, 0, 1);
+	border: 0px;
+	min-height: 30px;
+}
+.navbar-default .navbar-nav>li>a
+{
+	padding: 8px 17px;
+	color: #eeeeee;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+{
+	background-color: #cccccc;
+	/*background: rgba(25, 25, 25, .7);*/
+	color: #000000;
+}
+
+.navbar  .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus
+{
+	background-color: #ababab;
+	color: #000000;
+}
+
+.sitename, .sitename > a
+{
+	display: block;
+	float: right;
+	font-size: x-large;
+	font-weight: bold;
+	color: #DDDDDD;
+}
+
+blockquote
+{
+	background: #f9f9f9;
+	border: 0;
+	margin: 1em 1.5em;
+	padding: 1.3em;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote div.quote:before
+{
+	color: #ccc;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0em;
+	vertical-align: -0.45em;
+}
+
+blockquote div.quote:after
+{
+	color: #ccc;
+	content: close-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.5em;
+}
+
+blockquote div.attribution
+{
+	text-align: right;
+	font-size: smaller;
+}
+
+blockquote p { display: inline; }
+#lightTable { }
+
+#lightTable img
+{
+	margin: 10px;
+	border: 0;
+	padding: 15px;
+	alignment-baseline: hanging;
+	-moz-box-shadow: 3px 3px 4px #333333;
+	-webkit-box-shadow: 3px 3px 4px #333333;
+	box-shadow: 3px 3px 4px #333333;
+}
+
+#lightTable img:hover
+{
+	padding: 13px;
+	border: solid 2px red;
+	-moz-box-shadow: 1px 1px 5px #222222;
+	-webkit-box-shadow: 1px 1px 5px #222222;
+	box-shadow: 1px 1px 5px #222222;
+}
+
+#music-catalog { margin-bottom: 4em; }
+
+#music-catalog  h3
+{
+	background: #eeeeee;
+	padding: .2em;
+	margin-top: 2em;
+}
+
+.op
+{
+	border-top: 1px solid #eeeeee;
+	margin-left: 1em;
+}
+
+.chart-title { font-weight: bold; }
+.op div.description { }

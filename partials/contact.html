@@ -1,0 +1,38 @@
+<script>
+
+var images = [
+'url(images/JoeySellers_05.png)',
+'url(images/JoeySellers_clinician.png)',
+'url(images/JoeySellers_composer.png)',
+'url(images/JoeySellers_contact.png)',
+'url(images/JoeySellers_menu.png)',
+'url(images/JoeySellers_performer_1.png)',
+'url(images/JoeySellers_performer_2.png)',
+'url(images/JoeySellers_performer_3.png)',
+'url(images/20160628-cf-bw-100.png)',
+'url(images/20160628-cf-bw-103.png)',
+'url(images/20160628-cf-bw-109.png)',
+'url(images/20160628-cf-bw-102.png)',
+'url(images/20160628-cf-bw-112.png)',
+'url(images/20160628-cf-bw-116.png)'
+];
+
+var size = images.length;
+var rimg = images[Math.floor(size*Math.random())];
+
+$('#imageheader').css('background-image', rimg);
+$("li").removeClass('active');
+$('#contact').addClass('active');
+
+</script>
+
+<h1>Contact Info</h1>
+  <p>For publicity and promotional material, please visit the <a href="#/press">press kit page</a>.<br/>
+  For photos, please visit the <a href="#/photos">photo page</a>.<br/>
+  For information regarding bookings or clinics, please contact Joey directly at (949) 595-4490 or jseltrb@aol.com.<br/>
+  To purchase CD's of Joey's music, please visit CD Baby.</p>
+  <ul>
+          <li><a href="http://www.cdbaby.com/Artist/JoeySellers" target="_new">Joey Sellers' Solo Trombone Work</a></li>
+          <li><a href="http://www.cdbaby.com/Artist/JoeySellersJazzAggregation" target="_new">Joey Sellers' Jazz Aggregation</a></li>
+          <li>Joey Sellers with other artists (go to <a href="http://www.cdbaby.com/" target="_new">CD Baby</a> and search for &quot;Joey Sellers&quot;)<br></li>
+    </ul>
