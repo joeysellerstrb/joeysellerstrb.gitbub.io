@@ -1,0 +1,110 @@
+<script>
+var images = [
+
+'url(images/JoeySellers_bluewhale.png)',
+'url(images/JoeySellers_05.png)',
+'url(images/JoeySellers_clinician.png)',
+'url(images/JoeySellers_composer.png)',
+'url(images/JoeySellers_contact.png)',
+'url(images/JoeySellers_menu.png)',
+'url(images/JoeySellers_performer_1.png)',
+'url(images/JoeySellers_performer_2.png)',
+'url(images/JoeySellers_performer_3.png)',
+'url(images/20160628-cf-bw-100.png)',
+'url(images/20160628-cf-bw-103.png)',
+'url(images/20160628-cf-bw-109.png)',
+'url(images/20160628-cf-bw-102.png)',
+'url(images/20160628-cf-bw-112.png)',
+'url(images/20160628-cf-bw-116.png)'
+];
+
+var size = images.length;
+var rimg = images[Math.floor(size*Math.random())];
+
+$('#imageheader').css('background-image', rimg);
+$("li").removeClass('active');
+$('#press').addClass('active');
+
+
+</script>
+ 
+ 
+  <h1 >BIO</h1>
+  <h2 >Joey Sellers</h2>
+
+<p>Born
+in Phoenix, Arizona in 1962, Joey Sellers is recipient of the <b>Gil Evans Fellowship In Jazz Composition</b>,
+the <b>Sammy Nestico Award</b>, and the <b>Julius Hemphill Award</b>. An accomplished
+composer in both jazz and classical idioms, Sellers has written for Doc
+Severinsen, the Lincoln Center Jazz Orchestra, symphony orchestras in Tulsa,
+Long Beach and San Antonio and several works commissioned by the St. Louis
+Brass. Warner Brothers, Advance Music, and Hal Leonard have published his music
+and transcriptions. He has received grants from the American Music Center, Meet
+the Composer, and the National Endowment for the Arts. 
+</p>
+
+
+<p>Sellers attended Arizona State University where he
+studied trombone with Gail Wilson and improvisation with Chuck Marohnic. In
+1980, he formed the Tempe Jazz Workshop, an 11-piece ensemble to perform his
+original music.</p>
+
+<p>Sellers moved to Los Angeles in 1985, where he
+performed actively on piano and trombone. The 11-piece ensemble manifested
+itself there as the Jazz Aggregation, and that ensemble's recordings and
+performances garnered critical praise. The <i >Los
+Angeles Times</i> says of the ensemble, <b >"[Joey
+Sellers'] Jazz Aggregation is one of the most exciting new surprises of the
+decade." </b>The <i>Penguin Guide to Jazz</i>
+states of the Aggregation's 9Winds release <u>Pastels, Ashes</u> <b>"Sellers blends structure and surprise with
+a deftness that should leave other arrangers genuflecting." </b>In Los Angeles,
+Sellers played and recorded with the Kim Richmond/Clay Jenkins Ensemble, Joe
+LaBarbara, Bruce Fowler, Allen Vizzutti and Bobby Shew. He studied
+improvisation with Warne Marsh, and jazz composition with Bill Holman. During
+this period, Sellers also served as music director, trombonist and pianist for
+the Side Street Strutters, reworking and adapting the music of Jelly Roll
+Morton, Duke Ellington, Fats Waller, Fletcher Henderson and other seminal jazz
+figures for that ensemble's six recordings for StopTime Records.</p>
+
+
+<p>Moving to New York in 1996 to pursue more intense
+musical endeavors, Sellers played and recorded with Conrad Herwig, Dave
+Liebman, Toshiko Akiyoshi's Orchestra featuring Lew Tabackin, Kenny Wheeler
+Large Ensemble, Satoko Fujii Orchestra, Mike Formanek and Tony Malaby, among
+others. The New York incarnation of the Jazz Aggregation was well received, with
+the <i>New York Times</i> commenting, <b>"Sellers is one of few composers whose
+ideas actually press into new shapes; it's not just a half dozen soloists
+coloring a big band core." </b><i >The
+Village Voice</i><b> </b>states simply, <b>"There's little typical about his pen." </b></p>
+
+<p>A short list of Sellers' commissions includes:
+<b>"Three Fantasies for Steelpan and
+Orchestra"</b> for Liam Teague, <b>"</b>Concerto
+for Jazz Piano and Orchestra<b>"</b> for Chuck Marohnic, <b>Odd Children: Piece for Marimba and Wind Ensemble</b> for Robert
+Chappell,<b>"Three Essays/Four Saxophones"</b> for the Northern Illinois University
+Saxophone Quartet, <b>"Aperitif, Tale,
+Digression and Entrée for Tuba and Clarinet"</b> for Sam Pilafian and Robert
+Spring, <b>Requiems </b>for Wayne Bergeron,
+and <b>"Miss Rogers' Boots"</b> for the
+Airmen of Note.</b></p>
+
+
+<p>Sellers was assistant professor of music at Northern
+Illinois University; he is currently Director of Jazz Studies at Saddleback
+College. He lives in Mission Viejo, California with his wife, clarinetist Susan
+Sellers, and their children, Corissa and Benjamin.</p>
+
+
+
+<p><a href="mailto:jseltrb@aol.com">jseltrb@aol.com</a><br/>
+(949) 394-6412</p>
+
+
+
+
+<h1>Quotes</h1>
+<div ng-repeat="quote in quotes">
+<blockquote><div class="quote">{{quote.q}}</div><div class="attribution">&mdash; {{quote.a}}</div>
+</div>
+<h1>PHOTOS</h1>
+<p><a href="#/photos">Click here for high resolution photos</a></p>

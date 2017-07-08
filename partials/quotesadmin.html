@@ -1,0 +1,12 @@
+<script>
+$("li").removeClass('active');
+$('#quotes').addClass('active');
+</script>
+
+</script>
+
+
+<h1>Quotes</h1>
+<div ng-repeat="quote in quotes">
+<blockquote><div class="quote">{{quote.q}}</div><div class="attribution">&mdash; {{quote.a}}</div></blockquote>
+</div>

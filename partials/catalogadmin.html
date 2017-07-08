@@ -1,0 +1,13 @@
+<script>
+$("li").removeClass('active');
+$('#catalog').addClass('active');
+</script>
+
+<h1>Search Music Catalog <input ng-model="query"></h1>
+<div ng-repeat="(cat, works) in  categories ">
+<h3 class="animate-show" ng-show = " filtered.length &gt; 0 ">{{cat}}</h3>
+<div class="op row" ng-repeat = "opus in filtered = (works | filter: query | orderBy: 'title')">
+<div class="chart-title col-md-4 col-sm-12">{{opus.title}}</div>
+<div class="description col-md-8 col-sm-10 col-sm-offset-2 col-md-offset-0">{{opus.description}}</div>
+</div>
+
